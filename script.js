@@ -8,7 +8,7 @@ function countdown() {
         let seconds = Math.floor(timeLeft / 1000) % 60;
         let minutes = Math.floor(timeLeft / 1000 / 60) % 60;
         let hours = Math.floor(timeLeft / 1000 / 60 / 60) % 24;
-        let days = Math.floor((timeLeft / 1000 / 60 / 60 / 24) % 30) * 24;
+        let days = Math.floor((timeLeft / 1000 / 60 / 60));
         let months = Math.floor(timeLeft / 1000 / 60 / 60 / 24 / 30) % 12;
         let years = Math.floor((timeLeft / 1000 / 60 / 60 / 24 / 30 / 12))
 
