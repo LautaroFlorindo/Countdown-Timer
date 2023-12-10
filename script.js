@@ -1,4 +1,4 @@
-const worldCupDate = new Date("11 December 2023 11:00");
+const worldCupDate = new Date("11 December 2023 12:35");
 
 
 function countdown() {
@@ -20,7 +20,7 @@ function countdown() {
         // document.getElementById("months").innerHTML = months;
         // document.getElementById("years").innerHTML = years;
     } else{
-        document.getElementById("countdown-container").innerHTML = `<p class="final-text"> THE TIME HAS COME </p>`
+        document.getElementById("countdown-container").innerHTML = `<p class="final-text">LOVE YOU BITCHES</p>`
     }
 }
 
