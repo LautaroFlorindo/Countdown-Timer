@@ -3,10 +3,11 @@
 body{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    margin: 15px 0px;
+    margin: 0;
     font-family: 'Montserrat', sans-serif;
-    background-image: url(messi.webp);
+    background-image: url(messi.jpg);
     background-size: cover;
     background-position: center center;
     min-height: 100vh;
@@ -19,7 +20,7 @@ h1{
     text-align: center;
     font-size: 50px;
     font-weight: 400;
-    margin: 0;
+    margin: 30px;
     text-shadow: -1px 1px 0 #000, 
                           1px 1px 0 #000, 
                          1px -1px 0 #000, 
@@ -32,13 +33,16 @@ h1{
     width: 100%;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin-top: 150px;
+    margin-bottom: 30px;
 }
 
 .big-text{
     font-size: 50px;
     margin: 0;
     font-weight: bolder;
+    @media (max-width: 700px) {
+        font-size: 30px;
+    }
 }
 
 .final-text{
@@ -59,6 +63,9 @@ h1{
                           1px 1px 0 #000, 
                          1px -1px 0 #000, 
                         -1px -1px 0 #000; 
+    @media (max-width: 700px) {
+        padding: 10px;
+    }
 }
 
 .countdown-el span{
@@ -69,13 +76,4 @@ h1{
                           1px 1px 0 #000, 
                          1px -1px 0 #000, 
                         -1px -1px 0 #000; 
-}
-
-#lau{
-    width: 180px;
-}
-
-#titulolau{
-    display: flex;
-    align-items: center;
 }
